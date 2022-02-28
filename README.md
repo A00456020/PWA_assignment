@@ -1,4 +1,5 @@
 # PWA_assignment
+The following is the URL for my public library: https://github.com/A00456020/PWA_assignment
 This is my repository for PWA assignment for MCDA 5550.
 
 Hi, I am Parth Tarak Vaidya, A00456020, MCDA Fall 2021 cohort, Saint Mary's University, Halifax, NS, Canada.
