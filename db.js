@@ -2,6 +2,7 @@
 
 var db = new Dexie("taskDatabase");
 
+//BONUS POINTS: Added "id" as auto-increment instead of regular integer attribute
 db.version(1).stores({
     tasks: `
         ++id,
@@ -9,6 +10,7 @@ db.version(1).stores({
         dueDate,
         assignedTo`,
 });
+//END OF BONUS POINTS SECTION
 
 // db.delete()
 
