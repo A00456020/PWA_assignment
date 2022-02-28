@@ -1,4 +1,5 @@
-async function main() {
+async function main() 
+{
     const form = document.querySelector('form');
     const duedate_input = document.querySelector("[name='duedate']");
     const assignedto_input = document.querySelector("[name='assignedto']");
@@ -16,7 +17,8 @@ async function main() {
     });
 
 
-    function addTask(id=null, taskName, duedate, assignedto) {
+    function addTask(id=null, taskName, duedate, assignedto) 
+    {
         taskid = id
         const div = document.createElement('div')
         div.classList.add('task')
@@ -43,7 +45,6 @@ async function main() {
         assignedto_input.value = ''
     }
 
-    // Events
     form.onsubmit = (event) => {
         event.preventDefault();
         addTask(null, name_input.value, duedate_input.value, assignedto_input.value);

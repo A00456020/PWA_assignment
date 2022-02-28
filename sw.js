@@ -1,5 +1,5 @@
 const cacheName = 'Tempcache2';
-// install service worker
+
 self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(cacheName)
@@ -27,12 +27,12 @@ self.addEventListener('install', function (event) {
     
 });
 
-// activat service worker
+
 self.addEventListener('activate', function (event) {
     console.log('Service worker activated', event);
 })
 
-// return cached response
+
 self.addEventListener('fetch', function (event) {
     event.respondWith(
         caches.open(cacheName)
