@@ -1,0 +1,21 @@
+{
+    "name": "List of Tasks",
+    "short_name": "Tasks List",
+    "description": "An App to create, store and browse a list of tasks!",
+    "theme_color": "#c95b0c",
+    "background_color": "#404040",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": ".",
+    "start_url": "/",
+    "dir": "ltr",
+    "lang": "en-CA",
+    "icons": [
+        {
+            "src": "/taskicon_400x400.png",
+            "sizes": "400x400",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+  }
